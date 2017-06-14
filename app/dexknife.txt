@@ -1,0 +1,2 @@
+-suggest-split **.TestRxZipActivity.class
+-split io.reactivex.**
