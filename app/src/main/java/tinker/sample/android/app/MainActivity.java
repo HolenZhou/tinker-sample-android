@@ -30,6 +30,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.tencent.tinker.lib.library.TinkerLoadLibrary;
 import com.tencent.tinker.lib.tinker.Tinker;
@@ -52,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         Log.e(TAG, "i am on onCreate string:" + getResources().getString(R.string.test_resource));
 //        Log.e(TAG, "i am on patch onCreate");
 
-//        Toast.makeText(this, "我改了……", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "我改了……", Toast.LENGTH_SHORT).show();
 
         Button loadPatchButton = (Button) findViewById(R.id.loadPatch);
 

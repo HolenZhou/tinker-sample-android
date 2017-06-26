@@ -823,7 +823,6 @@ a/a/b/b.class
 a/a/d/b.class
 a/a/d/d.class
 a/a/h/a.class
-b/a/a.class
 tinker/sample/android/a/a.class
 tinker/sample/android/app/BaseBuildInfo.class
 tinker/sample/android/app/a.class
@@ -836,7 +835,6 @@ tinker/sample/android/app/f.class
 tinker/sample/android/app/g.class
 tinker/sample/android/app/SampleApplication.class
 tinker/sample/android/app/SampleApplicationLike.class
-tinker/sample/android/app/TestRxZipActivity.class
 tinker/sample/android/app/h.class
 tinker/sample/android/app/i.class
 tinker/sample/android/app/j.class

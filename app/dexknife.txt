@@ -1,2 +1,11 @@
--suggest-split **.TestRxZipActivity.class
+-filter-suggest
 -split io.reactivex.**
+-split org.reactivestreams.**
+-split **.TestRxZipActivity.class
+-split **.TestRxZipActivity$*.class
+
+
+#-split **.HolenTestClass.class
+-suggest-keep **.HolenSplitClass.class
+# 显示miandex的日志.
+#-log-mainlist
